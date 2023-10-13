@@ -1,0 +1,9 @@
+clf = DecisionTreeClassifier(criterion="gini", max_depth=10, splitter="best") 
+
+ 
+
+clf = clf.fit(X_train,y_train) 
+
+ 
+
+y_pred = clf.predict(X_test) 
